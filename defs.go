@@ -41,8 +41,8 @@ var attrList = map[C.int]string{
 	C.A_BLINK:     "blink",
 	//C.A_DIM:        "dim", TODO: pdcurses only, distinct in ncurses
 	C.A_BOLD:       "bold",
-	C.A_PROTECT:    "protect",
-	C.A_INVIS:      "invis",
+	//C.A_PROTECT:    "protect",
+	//C.A_INVIS:      "invis",
 	C.A_ALTCHARSET: "altcharset",
 	C.A_CHARTEXT:   "chartext",
 }
